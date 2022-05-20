@@ -1,0 +1,79 @@
+
+
+
+
+<!DOCTYPE html>
+<html class="background">
+   <head>
+      <title>2000Aura</title>
+      <link rel="icon" type="image/png" href="./pfp-modified.png">
+      <!-- <meta http-equiv = "refresh" content = "16; url = https://2000aura.gq" /> -->
+      <style>
+          :root {
+  --width: 300px;
+  --x-speed: 4s;
+  --y-speed: 2s;
+  --transition-speed: 2.2s;
+}
+
+.el { 
+  width: var(--width);
+  height: var(--width);
+}
+
+.x {
+  animation: x var(--x-speed) linear infinite alternate;
+}
+.y {
+  animation: y var(--y-speed) linear infinite alternate;
+}
+
+@keyframes x {
+  100% {
+    transform: translateX(calc(100vw - var(--width)));
+  }
+}
+@keyframes y {
+  100% {
+    transform: translateY(calc(100vh - var(--width)));
+  }
+}
+#name {
+    font-size:50px;
+}
+          #bunny{
+           max-height:200px;
+       }
+       #name {
+                font-size:70px;
+            }
+      </style>
+      <script src="https://cdn.tailwindcss.com"></script>
+    </head>
+    <body>
+        <main>
+            <div style="z-index:-1;max-height:20px;" class="x">
+                <img  style="z-index:-4;" class="y" src="./bunny.png" alt="codepen" />
+                </div>
+                <main>
+                    <div class="flex justify-center">
+                    </div>
+                    <div class="h-10"></div>
+                    <img id="pfp" style="width:200px;" class="mx-auto mt-5 mb-3" src="./pfp-modified.png?v2"></img>
+                    <div class="flex justify-center">
+                        <p style="color:white;" class="font-light text-3xl">2000Aura</p>
+            </div>
+            <div class="h-10"></div>
+            <div class="flex justify-center platformbuttons show">
+               <a style="z-index:1;" href="https://2000aura.gq/homepage"><button id="show" onclick="window.location.href='https://2000aura.gq/homepage'" style="z-index:2;background-color:rgb(2, 4, 70);border-radius:15px;min-height:100px;width:350px;" class="pop hover:bg-gray-800 text-gray-300 hover:text-gray-100 py-2 px-4 border border-gray-500 hover:border-transparent rounded text-xl font-light mt-5 mx-24">
+                    Continue to website</a> 
+                </button>
+            </div>
+                    <div class="h-10"></div>
+                    <div class="h-10"></div>
+                    <a href="/cdn-cgi/l/email-protection#98f6f1fbf3d8fffdecf5f1fff0ece1b6f6fdec"><p style="color:rgb(75, 75, 75)" class="flex justify-center text-white font-sans">Site courtesy of GETMIGHTY.NET</p></a>
+                    <a href="/cdn-cgi/l/email-protection#4c22252f270c2b293821252b24383562222938"><p style="color:rgb(75, 75, 75)" class="flex justify-center text-white font-sans">click here to contact the web developer</p></a>
+                    <div class="h-10"></div>
+                </main>
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script></body>
+</html>
